@@ -73,7 +73,9 @@ NH₃
 # AQI Calculation
 
 AQI is computed using CPCB (Central Pollution Control Board) guidelines. Each pollutant's sub-index is calculated using linear interpolation:
+
 I = [(I_high - I_low) / (C_high - C_low)] * (C - C_low) + I_low
+
 AQI = Max(Sub-indices of all pollutants)
 
 | AQI Range | Category     |
@@ -112,13 +114,13 @@ Sequence model trained on past 90 days of AQI.
 
 Captures complex nonlinear temporal patterns
 
-| Model   | MAE   | RMSE  | MAPE (%) |
-| ------- | ----- | ----- | -------- |
-| SARIMA  | 18.12 | 24.56 | 13.2%    |
-| Prophet | 17.89 | 23.90 | 12.7%    |
-| LSTM    | 16.45 | 21.87 | 11.3%    |
+| Model   | MAE   | RMSE  | 
+| ------- | ----- | ----- | 
+| SARIMA  | 51.22 | 65.79 | 
+| Prophet | 42.05 | 52.44 |
+| LSTM    | 46.80 | 53.92 |
 
-Best Performing Model: LSTM
+Best Performing Model: Prophet
 
 ## Forecasting: Next 90 Days
 
