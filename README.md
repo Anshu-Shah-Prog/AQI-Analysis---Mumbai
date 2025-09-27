@@ -135,6 +135,7 @@ Best Performing Model: Prophet
 ## Forecasting: Next 90 Days
 
 The following graph shows the AQI forecast for the next 90 days using LSTM:
+
 <img src="outputs/plots/prophet.png" width="600" height="400"/>
 
 ## Key Insights
