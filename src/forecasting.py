@@ -1,16 +1,10 @@
 import pandas as pd
-from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from prophet import Prophet
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
-
-def run_arima(ts):
-    model = ARIMA(ts, order=(5,1,0))
-    model_fit = model.fit()
-    return model_fit.forecast(90)
 
 def run_sarima(ts):
     model = SARIMAX(ts, order=(1,1,1), seasonal_order=(1,1,1,7))
