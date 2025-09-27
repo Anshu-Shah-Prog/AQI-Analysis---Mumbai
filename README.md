@@ -26,6 +26,7 @@ mumbai-aqi-forecasting/
 │   └── forecasted_data.csv
 ├── README.md
 └── requirements.txt
+```
 
 ## Objectives
 
