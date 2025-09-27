@@ -16,7 +16,7 @@ def evaluate(true, pred):
 # lstm_pred = ...
 
 results = pd.DataFrame({
-    "Model": ["ARIMA", "SARIMA", "Prophet", "LSTM"],
+    "Model": ["SARIMA", "Prophet", "LSTM"],
     "MAE": [...],
     "RMSE": [...],
     "MAPE": [...]
