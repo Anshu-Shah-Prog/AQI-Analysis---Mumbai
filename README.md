@@ -90,11 +90,13 @@ AQI = Max(Sub-indices of all pollutants)
 ## Exploratory Data Analysis (EDA)
 
 The following graph shows the AQI Trend:
+
 <img src="outputs/plots/aqi_trend.png" width="600"/>
 
 Seasonal decomposition of daily AQI shows weekly seasonality.
 
 The following graph shows the Seasonal Decoposition:
+
 <img src="outputs/plots/seasonal_decomposition.png" width="600"/>
 
 High pollutant concentration in winter months.
