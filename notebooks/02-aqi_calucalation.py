@@ -16,4 +16,4 @@ final_df = national_df[national_df["Date"] <= pd.to_datetime("2023-01-31")]
 
 # AQI Calculation
 aqi_df = calculate_aqi(final_df)
-aqi_df.to_csv("data/processed/aqi.csv", index=False)
+aqi_df.to_csv("data/processed_data.csv", index=False)
