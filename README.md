@@ -124,7 +124,8 @@ Best Performing Model: Prophet
 
 ## Forecasting: Next 90 Days
 
-All models were used to forecast AQI for the next 90 days. Forecasts include 95% confidence intervals
+The following graph shows the AQI forecast for the next 90 days using LSTM:
+![Prophet Forecast](outputs/plots/prophet.png)
 
 ## Key Insights
 
