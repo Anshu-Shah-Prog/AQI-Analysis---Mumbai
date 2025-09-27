@@ -8,9 +8,8 @@ This project analyzes and forecasts daily Air Quality Index (AQI) in Mumbai usin
 
 ```bash
 mumbai-aqi-forecasting/
-├── data/
-│   └── raw/                # All raw CSV files from Kaggle (21 stations)
-│   └── processed/          # Cleaned and combined datasets
+├── data/            
+│   └── processed_data.csv/        # Cleaned and combined datasets
 ├── notebooks/
 │   └── 01-data-cleaning.ipynb
 │   └── 02-aqi-calculation.ipynb
