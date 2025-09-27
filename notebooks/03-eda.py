@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-df = pd.read_csv("data/processed/aqi.csv")
+df = pd.read_csv("data/processed_data.csv")
 df["Date"] = pd.to_datetime(df["Date"])
 df = df.set_index("Date")
 
