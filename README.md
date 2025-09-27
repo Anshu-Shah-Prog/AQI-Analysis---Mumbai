@@ -141,7 +141,7 @@ The following graph shows the AQI forecast for the next 90 days using LSTM:
 
 AQI in Mumbai shows strong weekly and seasonal patterns.
 
-LSTM captures non-linear variations and gives lowest error.
+Prophet captures seasonal variations and gives lowest error.
 
 Forecasts can assist policymakers in pollution management.
 
