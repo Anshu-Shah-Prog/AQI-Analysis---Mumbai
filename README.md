@@ -90,13 +90,12 @@ AQI = Max(Sub-indices of all pollutants)
 ## Exploratory Data Analysis (EDA)
 
 The following graph shows the AQI Trend:
-![AQI Trend](outputs/plots/aqi_trend.png)
-
+<img src="outputs/plots/aqi_trend.png" width="600"/>
 
 Seasonal decomposition of daily AQI shows weekly seasonality.
 
 The following graph shows the Seasonal Decoposition:
-![Seasonal Decomposition](outputs/plots/seasonal_decomposition.png)
+<img src="outputs/plots/seasonal_decomposition.png" width="600"/>
 
 High pollutant concentration in winter months.
 
@@ -127,14 +126,14 @@ Captures complex nonlinear temporal patterns
 | Prophet | 42.05 | 52.44 |
 | LSTM    | 46.80 | 53.92 |
 
-![Model Comparision](outputs/plots/model_comparison.png)
+<img src="outputs/plots/model_comparison.png" width="600"/>
 
 Best Performing Model: Prophet
 
 ## Forecasting: Next 90 Days
 
 The following graph shows the AQI forecast for the next 90 days using LSTM:
-![Prophet Forecast](outputs/plots/prophet.png)
+<img src="outputs/plots/prophet.png" width="600"/>
 
 ## Key Insights
 
