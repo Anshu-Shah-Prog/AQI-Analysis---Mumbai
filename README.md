@@ -89,7 +89,14 @@ AQI = Max(Sub-indices of all pollutants)
 
 ## Exploratory Data Analysis (EDA)
 
-Seasonal decomposition of daily AQI shows weekly and yearly seasonality.
+The following graph shows the AQI Trend:
+![AQI Trend](outputs/plots/aqi_trend.png)
+
+
+Seasonal decomposition of daily AQI shows weekly seasonality.
+
+The following graph shows the Seasonal Decoposition:
+![Seasonal Decomposition](outputs/plots/seasonal_decomposition.png)
 
 High pollutant concentration in winter months.
 
@@ -119,6 +126,8 @@ Captures complex nonlinear temporal patterns
 | SARIMA  | 51.22 | 65.79 | 
 | Prophet | 42.05 | 52.44 |
 | LSTM    | 46.80 | 53.92 |
+
+![Model Comparision](outputs/plots/model_comparison.png)
 
 Best Performing Model: Prophet
 
