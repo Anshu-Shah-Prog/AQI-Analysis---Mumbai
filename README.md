@@ -53,7 +53,7 @@ Dataset used: Air Quality Index (AQI) Data of Mumbai
 
 Provided by: Kaggle User gyaswanth297
 
-# Pollutants Considered
+## Pollutants Considered
 
 PM2.5
 
@@ -69,7 +69,7 @@ O₃ (Ozone)
 
 NH₃
 
-# AQI Calculation
+## AQI Calculation
 
 AQI is computed using CPCB (Central Pollution Control Board) guidelines. Each pollutant's sub-index is calculated using linear interpolation:
 
